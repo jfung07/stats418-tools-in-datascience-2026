@@ -65,17 +65,17 @@ Create a dedicated section in your README documenting:
 
 Slide submissions for the proposal presentation will be available until **11:59 am May 5, 2026**. Create a pull request to the corresponding GitHub directory.
 
-There is a proposal presentation component that will happen during week 6 for **10-12 minutes** each. There will be a maximum of **7 slides**: 1 title slide and then 6 with content. This should show:
+There is a proposal presentation component that will happen during week 6 for **5-7 minutes** each. There will be a maximum of **6 slides**: 1 title slide and then 5 with content. This should show:
 * Your data collection approach and progress
 * Exploratory data analysis with visualizations
 * Proposed modeling approach(es)
-* Planned application features and user interface mockups
-* **Solution architecture diagram** (how components will connect)
+* ~~Planned application features and user interface mockups~~
+* ~~**Solution architecture diagram** (how components will connect)~~
 * Timeline and milestones for completion
 
 Order of presentations will be randomized.
 
-To that end you will need to start collecting your data prior to week six. Create your project GitHub repo. Both week 3 and 4 have shown different methods to collect data from websites. Adapt these methods to do so for your project. It may not be the case that you have completed your data collection at this point but be well on your way to doing so.
+To that end you will need to start collecting your data prior to week six. Create your project GitHub repo. Both week 3 and 4 will show different methods to collect data from websites. Adapt these methods to do so for your project. It may not be the case that you have completed your data collection at this point but be well on your way to doing so.
 
 ### Final Presentation
 
@@ -110,7 +110,7 @@ Here are a few nice examples of past GitHub repos from this course in past itera
 
 ## Submission Instructions
 
-1. **Proposal Slides**: Submit via pull request to `final-project/proposal-slides/` by May 5, 2026 11:59 AM
+1. **Proposal Slides**: Submit via pull request to the `project-proposal` branch in `final-project/proposal-slides/` by May 5, 2026 11:59 AM
 2. **Final Slides**: Submit via pull request to `final-project/final-slides/` by June 1, 2026 11:59 PM
 3. **GitHub Repository Link**: Submit via pull request with your project repository URL by June 2, 2026 end of day
 4. **Deployed Services**: Ensure both app and API are live and accessible by June 2, 2026
