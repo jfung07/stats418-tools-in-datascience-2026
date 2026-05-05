@@ -9,6 +9,15 @@ authors = [
     {name = "UCLA Statistics Department"}
 ]
 
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stat418_tools_in_datascience_2026"]
+
+
+
+
+
 dependencies = [
     "jupyter>=1.0.0",
     "pandas>=2.0.0",
@@ -65,14 +74,12 @@ all = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.uv]
-dev-dependencies = [
-    "pytest>=7.4.0",
-    "pytest-cov>=4.1.0",
-    "ruff>=0.1.0",
-    "black>=23.0.0",
-    "mypy>=1.5.0",
-]
+[dependency-groups.dev]
+pytest = ">=7.4.0"
+pytest-cov = ">=4.1.0"
+ruff = ">=0.1.0"
+black = ">=23.0.0"
+mypy = ">=1.5.0"
 
 [tool.ruff]
 line-length = 100
